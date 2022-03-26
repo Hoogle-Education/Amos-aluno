@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Programa{
+public class Aula01{
   public static void main(String[] args){
 
     // abro um Scanner de entrada pro sistema (Terminal)
@@ -10,7 +10,9 @@ public class Programa{
     String nome = in.nextLine();
     long telefone = in.nextLong();
     String serie = in.nextLine();
-    double nota1 = 8.0;
+    
+    double nota1 = 8.00;
+    System.out.println("a nota esta ok!");
     double nota2 = 6.0;
     double media = ((nota1 + nota2)/2.0);
     
