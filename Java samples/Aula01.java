@@ -5,11 +5,11 @@ public class Aula01{
   public static void main(String[] args){
 
     // abro um Scanner de entrada pro sistema (Terminal)
-    Scanner in = new Scanner(System.in);
+    Scanner teclado = new Scanner(System.in);
 
-    String nome = in.nextLine();
-    long telefone = in.nextLong();
-    String serie = in.nextLine();
+    String nome = teclado.nextLine();
+    long telefone = teclado.nextLong();
+    String serie = teclado.nextLine();
     
     double nota1 = 8.00;
     System.out.println("a nota esta ok!");
@@ -25,7 +25,7 @@ public class Aula01{
     System.out.println("---------------------");    
 
     // fecho meu Scanner
-    in.close();
+    teclado.close();
   }
 
 }
