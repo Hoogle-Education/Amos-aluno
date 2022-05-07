@@ -23,9 +23,10 @@ if(nota <= 7.0){
   System.out.println("Aluno em recuperação");
 }
 ```
-## Estruta `if-else` - *Se-Senão*
+## Estruta `if-else` - (*Se-Senão*)
 
 Melhorando e simplicando nosso exemplo anterior:
+
 ```java
 double nota = 8.0
 
