@@ -55,8 +55,8 @@ Operadores aritméticos servem para otimizar a nossa escrita de algumas express�
 
 ```java
 int a = 1;
-a = a + 1;  // a = 1 + 1 = 2
-System.out.println(a); // 2
+a = a + 1;  // a = 1 + 1
+System.out.println(a); // a = 2
 ```
 
 poderíamos substituir
@@ -79,9 +79,11 @@ Temos também alguns operadores que se misturam com o `=`:
 
 O operador geral de negação enquanto estamos programando é `!`, então temos:
 
-`!true` = `false`
-`!false` = `true`
-`!=` = diferente
+```
+!true -> false
+!false -> true
+!= -> diferente -> não igual
+```
 
 ## Operador Ternário `?`
 
